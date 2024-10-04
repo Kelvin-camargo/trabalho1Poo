@@ -1,7 +1,14 @@
 package professor.entidades;
 
 import estudantes.entidades.*;
+import refigerado.Refrigerado;
+
 import java.util.LinkedList;
+
+import Produtos.Alimenticio;
+import Produtos.CuidadosPessoais;
+import Produtos.Eletroeletronico;
+import Produtos.Limpeza;
 
 /**
  * Classe que representa um fiscal que confere e despacha sacolas para transporte.

@@ -2,7 +2,18 @@ package professor.entidades;
 
 import estudantes.entidades.*;
 import java.util.Random;
+
+import Produtos.Alimenticio;
+import Produtos.CuidadosPessoais;
+import Produtos.Eletroeletronico;
+import Produtos.Limpeza;
+import Produtos.Papelaria;
+import alimenticio.NaoPerecivel;
+import alimenticio.Perecivel;
+import cuidadospessoais.Cosmetico;
+import cuidadospessoais.Higiene;
 import professor.gui.Simulador;
+import refigerado.Refrigerado;
 
 /**
  * Classe que representa o supermercado com seus caixas, fiscal e empacotador.
